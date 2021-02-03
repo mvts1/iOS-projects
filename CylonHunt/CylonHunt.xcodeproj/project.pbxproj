@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		773F90CB25C29CF500507A5A /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 773F90CA25C29CF500507A5A /* Starfield.sks */; };
+		773F90D125C2CFB400507A5A /* Waves.json in Resources */ = {isa = PBXBuildFile; fileRef = 773F90CF25C2CFB400507A5A /* Waves.json */; };
+		773F90D225C2CFB400507A5A /* EnemyTypes.json in Resources */ = {isa = PBXBuildFile; fileRef = 773F90D025C2CFB400507A5A /* EnemyTypes.json */; };
+		773F90D725C2D00C00507A5A /* EnemyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773F90D625C2D00C00507A5A /* EnemyType.swift */; };
+		773F90DC25C2D0A800507A5A /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773F90DB25C2D0A800507A5A /* Wave.swift */; };
+		773F90E125C2D21300507A5A /* BundleDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773F90E025C2D21300507A5A /* BundleDecoding.swift */; };
+		773F90E625C2F67700507A5A /* EnemyNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773F90E525C2F67700507A5A /* EnemyNode.swift */; };
+		7740688725C1F16200C8DB00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7740688625C1F16200C8DB00 /* AppDelegate.swift */; };
+		7740688925C1F16200C8DB00 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7740688825C1F16200C8DB00 /* GameScene.sks */; };
+		7740688D25C1F16200C8DB00 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7740688C25C1F16200C8DB00 /* GameScene.swift */; };
+		7740688F25C1F16200C8DB00 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7740688E25C1F16200C8DB00 /* GameViewController.swift */; };
+		7740689225C1F16200C8DB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7740689025C1F16200C8DB00 /* Main.storyboard */; };
+		7740689425C1F16500C8DB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7740689325C1F16500C8DB00 /* Assets.xcassets */; };
+		77B94E9C25CAE351000964F9 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 77B94E9B25CAE351000964F9 /* Explosion.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7740689B25C1F16600C8DB00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7740687B25C1F16100C8DB00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7740688225C1F16100C8DB00;
+			remoteInfo = CylonHunt;
+		};
+		774068A625C1F16600C8DB00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7740687B25C1F16100C8DB00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7740688225C1F16100C8DB00;
+			remoteInfo = CylonHunt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		773F90CA25C29CF500507A5A /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		773F90CF25C2CFB400507A5A /* Waves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Waves.json; sourceTree = "<group>"; };
+		773F90D025C2CFB400507A5A /* EnemyTypes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EnemyTypes.json; sourceTree = "<group>"; };
+		773F90D625C2D00C00507A5A /* EnemyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyType.swift; sourceTree = "<group>"; };
+		773F90DB25C2D0A800507A5A /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		773F90E025C2D21300507A5A /* BundleDecoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleDecoding.swift; sourceTree = "<group>"; };
+		773F90E525C2F67700507A5A /* EnemyNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyNode.swift; sourceTree = "<group>"; };
+		7740688325C1F16200C8DB00 /* CylonHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CylonHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7740688625C1F16200C8DB00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7740688825C1F16200C8DB00 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7740688C25C1F16200C8DB00 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7740688E25C1F16200C8DB00 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7740689125C1F16200C8DB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7740689325C1F16500C8DB00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7740689525C1F16500C8DB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7740689A25C1F16600C8DB00 /* CylonHuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CylonHuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		774068A525C1F16600C8DB00 /* CylonHuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CylonHuntUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B94E9B25CAE351000964F9 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7740688025C1F16100C8DB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7740689725C1F16600C8DB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774068A225C1F16600C8DB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7740687A25C1F16100C8DB00 = {
+			isa = PBXGroup;
+			children = (
+				7740688525C1F16200C8DB00 /* CylonHunt */,
+				7740688425C1F16200C8DB00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7740688425C1F16200C8DB00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7740688325C1F16200C8DB00 /* CylonHunt.app */,
+				7740689A25C1F16600C8DB00 /* CylonHuntTests.xctest */,
+				774068A525C1F16600C8DB00 /* CylonHuntUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7740688525C1F16200C8DB00 /* CylonHunt */ = {
+			isa = PBXGroup;
+			children = (
+				7740688625C1F16200C8DB00 /* AppDelegate.swift */,
+				7740688825C1F16200C8DB00 /* GameScene.sks */,
+				7740688C25C1F16200C8DB00 /* GameScene.swift */,
+				77B94E9B25CAE351000964F9 /* Explosion.sks */,
+				773F90E525C2F67700507A5A /* EnemyNode.swift */,
+				773F90D625C2D00C00507A5A /* EnemyType.swift */,
+				773F90DB25C2D0A800507A5A /* Wave.swift */,
+				773F90E025C2D21300507A5A /* BundleDecoding.swift */,
+				7740688E25C1F16200C8DB00 /* GameViewController.swift */,
+				7740689025C1F16200C8DB00 /* Main.storyboard */,
+				7740689325C1F16500C8DB00 /* Assets.xcassets */,
+				773F90CA25C29CF500507A5A /* Starfield.sks */,
+				7740689525C1F16500C8DB00 /* Info.plist */,
+				773F90D025C2CFB400507A5A /* EnemyTypes.json */,
+				773F90CF25C2CFB400507A5A /* Waves.json */,
+			);
+			path = CylonHunt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7740688225C1F16100C8DB00 /* CylonHunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774068AE25C1F16600C8DB00 /* Build configuration list for PBXNativeTarget "CylonHunt" */;
+			buildPhases = (
+				7740687F25C1F16100C8DB00 /* Sources */,
+				7740688025C1F16100C8DB00 /* Frameworks */,
+				7740688125C1F16100C8DB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CylonHunt;
+			productName = CylonHunt;
+			productReference = 7740688325C1F16200C8DB00 /* CylonHunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7740689925C1F16600C8DB00 /* CylonHuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774068B125C1F16600C8DB00 /* Build configuration list for PBXNativeTarget "CylonHuntTests" */;
+			buildPhases = (
+				7740689625C1F16600C8DB00 /* Sources */,
+				7740689725C1F16600C8DB00 /* Frameworks */,
+				7740689825C1F16600C8DB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7740689C25C1F16600C8DB00 /* PBXTargetDependency */,
+			);
+			name = CylonHuntTests;
+			productName = CylonHuntTests;
+			productReference = 7740689A25C1F16600C8DB00 /* CylonHuntTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		774068A425C1F16600C8DB00 /* CylonHuntUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 774068B425C1F16600C8DB00 /* Build configuration list for PBXNativeTarget "CylonHuntUITests" */;
+			buildPhases = (
+				774068A125C1F16600C8DB00 /* Sources */,
+				774068A225C1F16600C8DB00 /* Frameworks */,
+				774068A325C1F16600C8DB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				774068A725C1F16600C8DB00 /* PBXTargetDependency */,
+			);
+			name = CylonHuntUITests;
+			productName = CylonHuntUITests;
+			productReference = 774068A525C1F16600C8DB00 /* CylonHuntUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7740687B25C1F16100C8DB00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7740688225C1F16100C8DB00 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					7740689925C1F16600C8DB00 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 7740688225C1F16100C8DB00;
+					};
+					774068A425C1F16600C8DB00 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 7740688225C1F16100C8DB00;
+					};
+				};
+			};
+			buildConfigurationList = 7740687E25C1F16100C8DB00 /* Build configuration list for PBXProject "CylonHunt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7740687A25C1F16100C8DB00;
+			productRefGroup = 7740688425C1F16200C8DB00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7740688225C1F16100C8DB00 /* CylonHunt */,
+				7740689925C1F16600C8DB00 /* CylonHuntTests */,
+				774068A425C1F16600C8DB00 /* CylonHuntUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7740688125C1F16100C8DB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773F90D225C2CFB400507A5A /* EnemyTypes.json in Resources */,
+				7740689225C1F16200C8DB00 /* Main.storyboard in Resources */,
+				7740688925C1F16200C8DB00 /* GameScene.sks in Resources */,
+				773F90CB25C29CF500507A5A /* Starfield.sks in Resources */,
+				773F90D125C2CFB400507A5A /* Waves.json in Resources */,
+				77B94E9C25CAE351000964F9 /* Explosion.sks in Resources */,
+				7740689425C1F16500C8DB00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7740689825C1F16600C8DB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774068A325C1F16600C8DB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7740687F25C1F16100C8DB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773F90E125C2D21300507A5A /* BundleDecoding.swift in Sources */,
+				773F90E625C2F67700507A5A /* EnemyNode.swift in Sources */,
+				7740688D25C1F16200C8DB00 /* GameScene.swift in Sources */,
+				773F90DC25C2D0A800507A5A /* Wave.swift in Sources */,
+				7740688F25C1F16200C8DB00 /* GameViewController.swift in Sources */,
+				773F90D725C2D00C00507A5A /* EnemyType.swift in Sources */,
+				7740688725C1F16200C8DB00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7740689625C1F16600C8DB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774068A125C1F16600C8DB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7740689C25C1F16600C8DB00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7740688225C1F16100C8DB00 /* CylonHunt */;
+			targetProxy = 7740689B25C1F16600C8DB00 /* PBXContainerItemProxy */;
+		};
+		774068A725C1F16600C8DB00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7740688225C1F16100C8DB00 /* CylonHunt */;
+			targetProxy = 774068A625C1F16600C8DB00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7740689025C1F16200C8DB00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7740689125C1F16200C8DB00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		774068AC25C1F16600C8DB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		774068AD25C1F16600C8DB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		774068AF25C1F16600C8DB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4STUVVP7HC;
+				INFOPLIST_FILE = CylonHunt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omavitas.CylonHunt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		774068B025C1F16600C8DB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4STUVVP7HC;
+				INFOPLIST_FILE = CylonHunt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omavitas.CylonHunt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		774068B225C1F16600C8DB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4STUVVP7HC;
+				INFOPLIST_FILE = CylonHuntTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omavitas.CylonHuntTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CylonHunt.app/CylonHunt";
+			};
+			name = Debug;
+		};
+		774068B325C1F16600C8DB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4STUVVP7HC;
+				INFOPLIST_FILE = CylonHuntTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omavitas.CylonHuntTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CylonHunt.app/CylonHunt";
+			};
+			name = Release;
+		};
+		774068B525C1F16600C8DB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4STUVVP7HC;
+				INFOPLIST_FILE = CylonHuntUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omavitas.CylonHuntUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CylonHunt;
+			};
+			name = Debug;
+		};
+		774068B625C1F16600C8DB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4STUVVP7HC;
+				INFOPLIST_FILE = CylonHuntUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.omavitas.CylonHuntUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CylonHunt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7740687E25C1F16100C8DB00 /* Build configuration list for PBXProject "CylonHunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774068AC25C1F16600C8DB00 /* Debug */,
+				774068AD25C1F16600C8DB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774068AE25C1F16600C8DB00 /* Build configuration list for PBXNativeTarget "CylonHunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774068AF25C1F16600C8DB00 /* Debug */,
+				774068B025C1F16600C8DB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774068B125C1F16600C8DB00 /* Build configuration list for PBXNativeTarget "CylonHuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774068B225C1F16600C8DB00 /* Debug */,
+				774068B325C1F16600C8DB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		774068B425C1F16600C8DB00 /* Build configuration list for PBXNativeTarget "CylonHuntUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				774068B525C1F16600C8DB00 /* Debug */,
+				774068B625C1F16600C8DB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7740687B25C1F16100C8DB00 /* Project object */;
+}
